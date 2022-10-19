@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="./js/scripts.js"></script>
+  <link href="./css/styles.css" rel="stylesheet" type="text/css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Voting information</h1>
+  <form>
+    <label for="age">Please enter your age:</label>
+    <input id="age" name="age">
+    <button type="submit">Submit!</button>
+  </form>
+  <div class="hidden" id="minor">
+    <h2>Sorry, you are to young to vote.</h2>
+    <p>For more information about voting regulations click <a href="https://www.usa.gov/voting-laws">HERE!</a></p>
+  </div>
+  <div class="hidden" id="old-enough">
+    <h2>Here is the list of upcoming elections:</h2>
+    <ul>
+      <li>Chicago</li>
+      <li>New York</li>
+      <li>Los Angeles</li>
+      <li>Boston</li>
+    </ul>
+  </div>
+</body>
+</html>
